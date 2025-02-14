@@ -5,7 +5,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 
 const menuItems = [
-  { name: "Dashboard", path: "/dashboard" },
+  { name: "Dashboard", path: "/" },
   {
     name: "Sales",
     path: "/dashboard/sales",
@@ -27,6 +27,16 @@ const menuItems = [
       { name: "Purchase Orders", path: "/dashboard/purchase/orders" },
       { name: "Vendors", path: "/dashboard/purchase/vendors" },
       { name: "Receipts", path: "/dashboard/purchase/receipts" },
+    ],
+  },
+  {
+    name: "Inventory",
+    path: "/dashboard/inventory", // ✅ Ensure this exists
+    subMenu: [
+      
+      { name: "Stock", path: "/dashboard/inventory/stock" },
+      { name: "Products", path: "/dashboard/inventory/products" },
+      { name: "Price List", path: "/dashboard/inventory/price" },
     ],
   },
 ];
