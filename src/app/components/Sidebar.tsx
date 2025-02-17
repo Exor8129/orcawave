@@ -24,9 +24,9 @@ const menuItems = [
     path: "/dashboard/purchase", // ✅ Ensure this exists
     subMenu: [
       
-      { name: "Purchase Orders", path: "/dashboard/purchase/orders" },
+      { name: "Purchase Pipeline", path: "/dashboard/purchase/pipeline" },
       { name: "Vendors", path: "/dashboard/purchase/vendors" },
-      { name: "Receipts", path: "/dashboard/purchase/receipts" },
+      { name: "Purchase Report", path: "/dashboard/purchase/reports" },
     ],
   },
   {
